@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+}
+
+.tab {
+  display: flex;
+  flex-direction: row;
+  font-size: 0px;
+  margin: 5px;
+}
+
+ul {
+  padding: 0;
+}
+
+.tab li {
+  font-weight: bold;
+  border: 0.8px solid rgb(235, 235, 235);
+  font-size: 14px;
+  padding: 20px 30px 20px 30px;
+  cursor: pointer;
+  text-align: center;
+  list-style: none;
+}
+
+.tab li:hover {
+  color: green;
+}
+
+.tab li.active {
+  background-color: #e65da0;
+  color: white;
+}
+
+.content {
+  display: flex;
+  margin: 20px 0px 0px 5px;
+}
+
+.left-card {
+  display: flex;
+}
+
+.main-card {
+  display: flex;
+}
+
+.main-card img {
+}
+
+.left-card .main-card .card-text {
+  height: calc(100% - 180px);
+  background-color: #faedf4;
+  color: black;
+  text-align: left;
+  padding: 20px;
+}
+
+.msg {
+  font-weight: bold;
+}
+
+.album {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.main-card a {
+  text-decoration: none;
+}
+
+.right-card {
+  display: flex;
+}
+
+.right-card .sub-card {
+  margin: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  list-style: none;
+}
+
+li .URL {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.right-card .sub-card li {
+  display: flex;
+  margin: 0px 0px 20px 0px;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-wrapper div {
+  padding: 8px 0px 0px 10px;
+}
+
+.text-top {
+  color: #e65da0;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.text-mid {
+  color: black;
+  font-weight: bold;
+}
+.text-bottom {
+  color: gray;
+}
